@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <link href="asset/css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <span class="fs-4">Yang's portfolio</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#section1" class="nav-link">자기 소개</a></li>
+        <li class="nav-item"><a href="#section2" class="nav-link">이력</a></li>
+        <li class="nav-item"><a href="#section3" class="nav-link active" aria-current="page">포트폴리오</a></li>
+      </ul>
+    </header>
+
+  </header>
+
+  <main>
+    <section id="section1">
+
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="asset/image/me.jfif" alt="" width="10%">
+        <h1 class="display-5 fw-bold">개발로 세상을 이롭게 한다</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">안녕하세요! 신입 개발자를 꿈꾸는 양현준입니다.<br /><br />우리는 우리가 느끼지 못한 곳에서 코딩의 혜택을 받으며 살아갑니다.<br />
+            전기주전자부터 항공기까지 우리가 알고 있는 거의 모든 곳에 코딩이 들어있습니다.<br />이렇게 우리 사회의 큰 부분을 담당하는 코딩으로 좀 더 세상을 이롭게 만들어보고 싶습니다. </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <!-- <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="b-example-divider"></div>
+    <section id="section2">
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">이력</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon bg-primary bg-gradient">
+            </div>
+            <h2>학력</h2>
+            <p>청주대학교 일어일문학과 졸업</p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon bg-primary bg-gradient">
+            </div>
+            <h2>자격증</h2>
+            <p>JLPT N1<br>컴퓨터활용능력 1급</p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon bg-primary bg-gradient">
+            </div>
+            <h2>교육훈련</h2>
+            <p>디지털컨버전스 기반 Framework 전문 개발자
+              양성과정 A<br>(비트캠프)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="b-example-divider"></div>
+    <section id="section3">
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="col">
+            <div class="card shadow-sm">
+              <rect width="100%" height="100%" fill="#55595c"></rect><img src="asset/image/ppt.jpg">
+
+              <div class="card-body">
+                <hr />
+                <p class="card-text">코로나와 바쁜 일상에 지친 사람들에게 차를 통해 힐링과 휴식을 주기 위한 차 판매 및 구독 사이트</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <rect width="100%" height="100%" fill="#55595c"></rect><video src="asset/video/portfolio.mp4" controls></video>
+              <div class="card-body">
+                <hr />
+                <p class="card-text">시연 동영상</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container footer">
+        <span class="text-muted">Yang's portfolio</span>
+      </div>
+    </footer>
+
+  </footer>
+</body>
+
+</html>
